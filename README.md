@@ -6,8 +6,8 @@ FutureBlink is a simple tool that lets you build and run AI workflows on a visua
 
 ## 🌐 Live Demo
 
-- **Frontend (Vercel)**:
-- **Backend (Render)**:
+- **Frontend (Vercel)**: [future-blink-ai-chat.vercel.app](https://future-blink-ai-chat.vercel.app)
+- **Backend (Render)**: [futureblink-ai-chat.onrender.com](https://futureblink-ai-chat.onrender.com)
 
 ---
 
@@ -77,7 +77,7 @@ Make sure you have **Node.js** installed. You'll also need a **MongoDB** connect
 First, grab the code:
 
 ```bash
-git clone
+git clone https://github.com/Puneet28j/FutureBlink-AI-Chat.git
 cd FutureBlink
 ```
 
