@@ -117,7 +117,7 @@ function FlowCanvas() {
         </ReactFlow>
       </div>
 
-      <div className="absolute bottom-5 sm:bottom-8 left-1/2 z-20 flex -translate-x-1/2 items-center gap-1 rounded-full border border-white/10 bg-black/40 p-1.5 backdrop-blur-lg shadow-2xl">
+      <div className="absolute bottom-[calc(1.25rem+env(safe-area-inset-bottom))] sm:bottom-8 left-1/2 z-20 flex -translate-x-1/2 items-center gap-1 rounded-full border border-white/10 bg-black/40 p-1.5 backdrop-blur-lg shadow-2xl">
         <button
           className="group relative flex h-9 sm:h-10 items-center gap-1.5 sm:gap-2 overflow-hidden rounded-full bg-zinc-100 px-4 sm:px-5 text-[12px] sm:text-[13px] font-medium text-zinc-900 transition-all hover:bg-white active:scale-95 disabled:pointer-events-none disabled:opacity-50"
           onClick={state.isGenerating ? stopFlow : runFlow}
